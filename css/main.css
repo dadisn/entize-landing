@@ -10,6 +10,9 @@
 	.navbar > .container .navbar-brand {
 		margin-left: 0;
 	}
+}
+
+@media (min-width: 992px) {
 	.more-info {
 		margin-top: -20px;
 	}
@@ -39,6 +42,7 @@ section {
 	background-color: rgba(241, 93, 39, 1);
 	color: #fff;
 }
+
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:focus {
 	background-color: rgba(241, 93, 39, 0.8); 
 	color: #fff;
@@ -119,10 +123,14 @@ section {
 }
 
 .bottom-logo {
-	margin-top: 23px;
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	margin-right: 15px;
 }
 
 .icons {
+	display: inline-block;
 	margin-left: 25px;
 	text-indent: -25px;
 }
