@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 	<title>Entize Software</title>
 	<meta charset="utf-8">
@@ -7,14 +7,10 @@
 	<meta name="description" content="Entize Software - Production Planning Solutions for Small to Medium Sized Companies">
 	<meta name="keywords" content="Entize,Planning,Production,Software,industry,companies,food">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    
-    <style type="text/css"> 
-    html, body { 
-    background-color: #eee;
-    }
-    </style>
-
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -29,25 +25,132 @@
 
 	</script>
 </head>
-<body>
-	<div class="container-fluid" style="text-align: center;">
-		<div class="row-fluid">
-			<div class="span12" style="height: 35px;"></div>
+<body data-spy="scroll" data-target="#navbar">
+	<nav class="navbar navbar-default navbar-fixed-top navigation" role="navigation">
+	  <div class="container collapse navbar-collapse navbar-ex1-collapse" id="navbar">
+	  	<div class="navbar-header">
+	  		<a class="navbar-brand" href="#top"><img src="img/LogoWeb.png" class="img-rounded" height="35px" width="35px"> Entize</a>
+	  	</div>
+	  	<ul class="nav navbar-nav navbar-right">
+	  		<li style="display: none"><a href="#top"></a></li>
+	  		<li><a href="#about">About</a></li>
+	  		<li><a href="#how">How it Works</a></li>
+	  		<li><a href="#contact">Contact</a></li>
+	  	</ul>
 		</div>
-		<div class="row-fluid">
-			<div class="span2"></div>
-			<div class="span8">
-				<div class="hero-unit" style="background-color: #ffffff;">
-					<img src="img/LogoWeb.png" class="img-rounded" height="250px" width="250px" style="margin-bottom: 20px;">
-					<br>
-					<h1>Entize Software</h1>
-					<p>Production planning solutions for small to medium sized companies</p>
-					<div style="margin-top: 30px;"></div>
-					<p>Contact: <a href="mailto:info@entize.se">info@entize.se</a></p>
+	</nav>
+		<section id="top">
+			<div class="row top">
+				<div class="container">
+					<div class="col-md-7">
+						<h2>Production Planning Made Simple</h2>
+						<p class="lead">At Entize, we believe that production planning is a cornerstone of every manufacturing company. That is why we built Entize Planning, production planning software designed to make planning as simple and easy as possible.</p>
+						<p class="lead">It's pretty awesome if you ask us!</p>
+					</div>
+					<div class="col-md-5">
+						<img src="img/screenshot-laptop.png" width="100%">
+					</div>
 				</div>
 			</div>
-			<div class="span2"></div>
+		</section>
+		<section id="about">
+			<div class="row about">
+				<div class="container">
+					<div class="col-md-3">
+						<i class="icon-wrench icon-4x"></i>
+						<h3>Easy to Maintain</h3>
+						<p>Continuous gathering of necessary information makes it effortless to make changes to your production system, such as adding new products or processes.</p>
+					</div>
+					<!-- <div class="col-md-3">
+						<i class="icon-exchange icon-4x"></i>
+						<h3>Share Across the Organization</h3>
+						<p>Entize Planning helps break down communication barriers within the organization by sharing actionable information throughout the organization.</p>
+					</div> -->
+					<div class="col-md-3">
+						<i class="icon-group icon-4x"></i>
+						<h3>Per Company, Not Per User</h3>
+						<p>Entize Planning licenses are sold to an entire organization, not based on number of users. This helps us break down communication barriers within your organization by sharing actionable information throughout the whole of your organization.</p>
+					</div>
+					<div class="col-md-3">
+						<i class="icon-eye-open icon-4x"></i>
+						<h3>Great Visualization</h3>
+						<p>Production plans can be complicated and difficult to understand. With Entize Planning the plan is beautifully visualized, making it accessible to whomever needs it!</p>
+					</div>
+					<div class="col-md-3">
+						<i class="icon-move icon-4x"></i>
+						<h3>Easy Drag & Drop Planning</h3>
+						<p>Planning is as easy as dragging and dropping a order to when and where it is supposed to worked on.</p>
+					</div>
+
+			</div>
+		</section>
+		<section id="how">
+			<div class="row how">
+				<div class="container">
+					<div class="col-md-12 how-it-works">
+						<h2>How Entize Planning Works</h2>
+						<p>Entize Planning works perfectly with pull production systems, where customer orders pull material and WIP down the production system. Each step of your production system is planned in a specific view in Entize Planning, where the time-horizon and the degree of detail needed are completely customizable.</p>
+						<img src="img/steps.svg" width="70%" class="steps-image">
+						<p>We continuously grab customer orders from your existing ERP system so you can keep the plan updated in real-time. When an order is planned, an internal order is sent to the previous production step - starting with your customers ordering finished products to you ordering the raw materials you need at the beginning of the process.</p>
+						<p>Entize Planning works with production systems of all sizes and complexity, from a simple linear system to branched systems with parallel processes.</p> 
+					</div>
+					<hr>
+					<div class="centered">
+						<div class="col-md-4">
+							<i class="icon-random icon-4x"></i>
+							<h3>Seamless integration</h3>
+							<p>Entize Planning integrates perfectly with your existing ERP system, continuously grabbing the information it needs from your databases.</p>
+						</div>
+						<div class="col-md-4">
+							<i class="icon-bullseye icon-4x"></i>
+							<h3>All Information In One Place</h3>
+							<p>Planning becomes even more simple when you have all the information you need in front of you, on one screen.</p>
+						</div>
+						<div class="col-md-4">
+							<i class="icon-tablet icon-4x"></i>
+							<h3>Cross-platform Design</h3>
+							<p>Entize Planning is completely web-based and cross-platform, meaning that it is accessible to whomever needs it, whenever and whereever!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="row contact">
+				<div class="container">
+					<div class="col-md-12">
+						<h1>Contact Us</h1>
+					</div>
+					<div class="col-md-2">
+						<img src="img/LogoWeb.png" class="img-rounded" width="100%">
+					</div>
+					<div class="col-md-3">
+						<address class="icons">
+							<strong>Entize AB</strong><br>
+							<i class="icon-home"></i>Kyrkogatan XX<br>
+							4XX XX Göteborg<br>
+							Sweden<br>
+							<i class="icon-phone"></i>+46 722825303<br>
+							<i class="icon-envelope"></i><a href="mailto:info@entize.se">info@entize.se</a><br>
+							<i class="icon-twitter"></i><a href="http://www.twitter.com/EntizeAB/">@EntizeAB</a><br>
+							<i class="icon-globe"></i><a href="http://www.entize.se">www.entize.se</a>
+						</address>
+					</div>
+					<div class="col-md-7 more-info">
+						<h3>Interested? Need some more information?</h3>
+						<p class="lead">Don't hesistate to contact us. We would love to get the opportunity to answer all your questions. We also have a <a href="pdf/entize-planning-brochure.pdf">little brochure</a> for you to look at with some more information.</p></div>
+				</div>
+			</div>
+		</section>
+		<div class="row bottom">
+			<div class="col-md-12">
+				<div class="container">
+					<span>&copy; 2013 Entize AB. All Rights Reserved.</span>
+				</div>
+			</div>
 		</div>
-	</div>
-</body>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	</script>
+	</body>
 </html>
