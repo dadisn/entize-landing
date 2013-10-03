@@ -1,0 +1,156 @@
+@font-face {
+	font-family: Archive;
+	src: url('../fonts/Archive.otf');
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse .navbar-nav.navbar-right:last-child {
+		margin-right: 0;
+	}
+	.navbar > .container .navbar-brand {
+		margin-left: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.more-info {
+		margin-top: -20px;
+	}
+}
+
+body {
+	padding-top: 51px;
+}
+
+section {
+	padding-top: 51px;
+	margin-top: -51px;
+}
+
+.navigation {
+	margin-bottom: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.navigation h1, .navigation h2, .navigation h3, .navigation h4, .navigation h5 {
+	margin: 0;
+	line-height: 50px;
+	font-family: Archive,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navigation .navbar-nav > li.active > a, .navigation .navbar-nav > li.active > a:hover, .navigation .navbar-nav > li.active > a:focus {
+	background-color: rgba(241, 93, 39, 1);
+	color: #fff;
+}
+
+.navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:focus {
+	background-color: rgba(241, 93, 39, 0.8); 
+	color: #fff;
+}
+
+.navigation .navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 50px;
+	font-family: Archive,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+}
+
+.top {
+	padding: 25px;
+	background: #eee;
+	background: url('../img/subtle_surface.png') repeat 0 0;
+	-moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	-webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	-ms-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	-o-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	border-bottom: 1px solid #ddd;
+}
+
+.top h1, .top h2, .top h3, .top h4, .top h5 {
+	font-family: Archive,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.top img {
+	max-width: 450px;
+	margin: 0 auto;
+	display: block;
+}
+
+.about {
+	padding: 25px;
+	text-align: center;
+}
+
+.container > hr {
+    margin: 25px 0;
+    height: 1px;
+    background: #666;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #666));
+    background: -webkit-linear-gradient(left, transparent 0%, #666 50%, transparent 100%);
+    background: -moz-linear-gradient(left, transparent 0%, #666 50%, transparent 100%);
+    background: -ms-linear-gradient(left, transparent 0%, #666 50%, transparent 100%);
+    background: -o-linear-gradient(left, transparent 0%, #666 50%, transparent 100%);
+    background: linear-gradient(left, transparent 0%, #666 50%, transparent 100%);
+}
+
+.how {
+	padding: 25px;
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+	-moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	-webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	-ms-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	-o-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+	border-bottom: 1px solid #ddd;
+}
+
+.how-it-works > p {
+	font-size: 1.2em;
+	font-weight: 200;
+}
+.steps-image {
+	display: block;
+	margin: 25px auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.contact {
+	padding: 25px;
+}
+
+.contact h1 {
+	margin-bottom: 15px;
+}
+
+.bottom-logo {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	margin-right: 15px;
+}
+
+.icons {
+	display: inline-block;
+	margin-left: 25px;
+	text-indent: -25px;
+}
+
+.bottom {
+	border-top: 1px solid #ddd;
+	padding: 25px;
+	height: 80px;
+	color: #aaa;
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(top, rgb(238,238,238) 0%, rgb(241,241,241) 0%, rgb(251,251,251) 50%, rgb(255,255,255) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(238,238,238)), color-stop(0%,rgb(241,241,241)), color-stop(50%,rgb(251,251,251)), color-stop(100%,rgb(255,255,255))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgb(238,238,238) 0%,rgb(241,241,241) 0%,rgb(251,251,251) 50%,rgb(255,255,255) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgb(238,238,238) 0%,rgb(241,241,241) 0%,rgb(251,251,251) 50%,rgb(255,255,255) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgb(238,238,238) 0%,rgb(241,241,241) 0%,rgb(251,251,251) 50%,rgb(255,255,255) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgb(238,238,238) 0%,rgb(241,241,241) 0%,rgb(251,251,251) 50%,rgb(255,255,255) 100%); /* W3C */
+}
