@@ -72,6 +72,12 @@ section {
 	font-family: Archive,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.top img {
+	max-width: 450px;
+	margin: 0 auto;
+	display: block;
+}
+
 .about {
 	padding: 25px;
 	text-align: center;
