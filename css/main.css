@@ -13,14 +13,33 @@
 }
 
 @media (min-width: 992px) {
+	body {
+		text-align: justify !important;
+	}
 	.more-info {
 		margin-top: -20px;
 	}
 }
 
+@media (max-width: 992px) {
+	body {
+		text-align: center;
+	}
+	.top h1, .top h2, .top h3, .top h4, .top h5 {
+		text-align: center !important;
+	}
+	.top p, .about p, .how p, .contact p {
+		margin: 0 0 30px 0 !important;
+	}
+}
+@media (max-width: 354px) {
+	.bottom-logo {
+		margin-bottom: 10px;
+	}
+}
+
 body {
 	padding-top: 51px;
-	text-align: justify;
 }
 
 section {
@@ -57,6 +76,16 @@ section {
 	font-size: 20px;
 }
 
+.flag {
+	width: 16px;
+	height: 11px;
+	background:url(../img/flags.png) no-repeat;
+	margin-top: -2px;
+}
+
+.flag.flag-gb {background-position: -16px 0}
+.flag.flag-se {background-position: 0 -11px}
+
 .top {
 	padding: 25px;
 	background: #eee;
@@ -71,6 +100,7 @@ section {
 
 .top h1, .top h2, .top h3, .top h4, .top h5 {
 	font-family: Archive,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: left;
 }
 
 .top img {
@@ -154,4 +184,8 @@ section {
 	background: -o-linear-gradient(top, rgb(238,238,238) 0%,rgb(241,241,241) 0%,rgb(251,251,251) 50%,rgb(255,255,255) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, rgb(238,238,238) 0%,rgb(241,241,241) 0%,rgb(251,251,251) 50%,rgb(255,255,255) 100%); /* IE10+ */
 	background: linear-gradient(to bottom, rgb(238,238,238) 0%,rgb(241,241,241) 0%,rgb(251,251,251) 50%,rgb(255,255,255) 100%); /* W3C */
+}
+
+address {
+	text-align: left !important;
 }
